@@ -1,4 +1,4 @@
-<div align="center"><h1>Brazilian E-Commerce Sales & Inventory Optimization (ABC/XYZ Analysis) </h1></div>  
+<div align="center"><h1>Brazilian E-Commerce Sales & Inventory Optimization<br>(ABC/XYZ Analysis)</h1></div>  
   
 ## Project description  
   
