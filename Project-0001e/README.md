@@ -1,23 +1,23 @@
 # Project title: Brazilian E-Commerce Sales & Inventory Optimization (ABC/XYZ Analysis)  
   
-# Project description  
+## Project description  
   
 This project focuses on a comprehensive analysis of the Brazilian Olist e-commerce dataset. The goal is to optimize inventory management and sales strategy by performing ABC/XYZ analysis. This allows the business to identify high-profit "star" products, detect "dead stock" in category C, and understand the stability of demand for effective procurement planning.  
   
-# Data used  
+## Data used  
   
 The analysis uses open-source data from the Olist Store, the largest department store in Brazilian marketplaces.  
     • Source: Kaggle (Brazilian E-Commerce Public Dataset by Olist)  
     • Sample size: 100,000+ orders from 2016 to 2018.  
     • Data composition: Relational structure including tables for orders, product items, product category translation, and timestamps.  
     
-# Technology stack  
+## Technology stack  
   
     • Tools: Microsoft Excel / Google Sheets  
     • Key Functions: XLOOKUP (data merging), Pivot Tables (aggregation), SUMIFS, STDEV.P & AVERAGE (for CV calculation), IFS (for classification).  
     • Visualization: Pareto Chart, Scatter Plot (ABC/XYZ Matrix), Interactive Slicers.  
     
-# Key stages of analysis  
+## Key stages of analysis  
 
     1. Data Merging & Cleaning: Unifying multiple CSV files into a master sheet using XLOOKUP. Translating Portuguese categories to English and cleaning date formats.  
     2. Feature Engineering: Calculating Revenue, Margin, and Order Frequency per category/product.  
@@ -25,14 +25,14 @@ The analysis uses open-source data from the Olist Store, the largest department 
     4. XYZ Analysis: Calculating the Coefficient of Variation ($CV$) for each category to determine demand stability across months.  
     5. Cross-Matrix Construction: Combining ABC and XYZ results into a final 9-cell matrix (e.g., AX, BZ, CY) to generate business recommendations.  
     
-# Key insights  
+## Key insights  
   
     • Revenue Drivers (Group A): Identified that top 10% of categories (like health_beauty and watches_gifts) generate over 70% of total revenue.  
     • Demand Stability: Categories in the AX group show high revenue and low volatility, making them ideal for automated restocking.  
     • Optimization Potential: Group CZ contains items with sporadic sales and low margins; reducing this stock could free up ~15% of tied-up capital.  
     • Seasonality: Specific spikes detected in Q4 (Black Friday effect), impacting the XYZ stability ratings for electronics.  
     
-# Visualizations  
+## Visualizations  
 
 The project includes:  
     • Pareto Chart: Visualizing the 80/20 rule for product revenue.  
@@ -44,7 +44,7 @@ The project includes:
     
     • Category Breakdown: Treemap of revenue distribution by English category names.  
     
-# Project structure  
+## Project structure  
   
 Olist-Analysis-Project/ — project directory  
     • data/ — project data  
@@ -55,7 +55,7 @@ Olist-Analysis-Project/ — project directory
     • Project-Olist-Logo.png — project cover  
     • README.md — project description  
     
-# How to Use  
+## How to Use  
 
 To explore this analysis:  
     1. Download the project file  
@@ -69,7 +69,8 @@ To explore this analysis:
         ◦ Use Slicers to filter data by time period or product category.  
         ◦ Observe how the ABC/XYZ Matrix updates based on the selected filters.  
         
-Contact
-    • Name: Andrii Isachenko
-    • LinkedIn: [Your LinkedIn Profile]
-    • E-mail: isao.datastudio@gmail.com
+## Contact  
+    
+**Name:** Andrii Isachenko  
+**LinkedIn:** [Andrii Isachenko](https://www.linkedin.com/in/isachenko-andrii/)  
+**E-mail:** isao.datastudio@gmail.com  
