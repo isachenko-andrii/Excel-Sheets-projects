@@ -1,5 +1,5 @@
 # Project title: Brazilian E-Commerce Sales & Inventory Optimization (ABC/XYZ Analysis)  
-<div align="center">Этот текст будет по центру</div>  
+<div align="center"># Этот текст будет по центру</div>  
   
 ## Project description  
   
